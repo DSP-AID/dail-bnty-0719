@@ -1,0 +1,13 @@
+{
+  "algorithm": "SAC (stable-baselines3 MlpPolicy, net_arch=[64,64])",
+  "train_envs": [
+    "Eplus-5zone-mixed-continuous-v1",
+    "Eplus-office-mixed-continuous-v1"
+  ],
+  "timesteps": 400000,
+  "seed": 1,
+  "obs_dim": 16,
+  "action": "2D normalized setpoints in [-1,1]^2",
+  "this_run_seconds": 507.3,
+  "model_file": "sac_transfer.zip"
+}

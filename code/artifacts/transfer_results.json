@@ -1,0 +1,273 @@
+{
+  "model_file": "sac_transfer.zip",
+  "seed": 100,
+  "episodes": [
+    {
+      "env_id": "Eplus-5zone-hot-continuous-v1",
+      "transfer_kind": "unseen weather",
+      "policy": {
+        "env_id": "Eplus-5zone-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 14283.459727977754,
+        "comfort_violation_rate": 0.47327416455009846,
+        "mean_degC_excess": 0.8381208040572673
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-5zone-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 11072.208441696166,
+        "comfort_violation_rate": 0.6074312947689849,
+        "mean_degC_excess": 0.9236595682560188
+      },
+      "hvac_kwh_vs_baseline_pct": 29.0
+    },
+    {
+      "env_id": "Eplus-5zone-cool-continuous-v1",
+      "transfer_kind": "unseen weather",
+      "policy": {
+        "env_id": "Eplus-5zone-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 4636.180220434188,
+        "comfort_violation_rate": 0.7363945092891184,
+        "mean_degC_excess": 1.534466451795837
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-5zone-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 5171.066038461685,
+        "comfort_violation_rate": 0.7685853714220484,
+        "mean_degC_excess": 1.237342313123802
+      },
+      "hvac_kwh_vs_baseline_pct": -10.3
+    },
+    {
+      "env_id": "Eplus-office-hot-continuous-v1",
+      "transfer_kind": "unseen weather",
+      "policy": {
+        "env_id": "Eplus-office-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 202403.84457070922,
+        "comfort_violation_rate": 0.7229816500670643,
+        "mean_degC_excess": 0.7892558783490936
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-office-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 140449.067581501,
+        "comfort_violation_rate": 1.0,
+        "mean_degC_excess": 3.152744160399025
+      },
+      "hvac_kwh_vs_baseline_pct": 44.1
+    },
+    {
+      "env_id": "Eplus-office-cool-continuous-v1",
+      "transfer_kind": "unseen weather",
+      "policy": {
+        "env_id": "Eplus-office-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 97499.42994843292,
+        "comfort_violation_rate": 0.6126822864644274,
+        "mean_degC_excess": 0.6613668522494986
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-office-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 27592.468340660096,
+        "comfort_violation_rate": 0.9990297080562769,
+        "mean_degC_excess": 2.465494450142706
+      },
+      "hvac_kwh_vs_baseline_pct": 253.4
+    },
+    {
+      "env_id": "Eplus-shop-mixed-continuous-v1",
+      "transfer_kind": "unseen building",
+      "policy": {
+        "env_id": "Eplus-shop-mixed-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 54658.59757411814,
+        "comfort_violation_rate": 0.6947290317057162,
+        "mean_degC_excess": 1.6024822517636261
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-shop-mixed-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 34882.30331344032,
+        "comfort_violation_rate": 0.8318826517508062,
+        "mean_degC_excess": 2.5441119362170936
+      },
+      "hvac_kwh_vs_baseline_pct": 56.7
+    },
+    {
+      "env_id": "Eplus-warehouse-mixed-continuous-v1",
+      "transfer_kind": "unseen building",
+      "policy": {
+        "env_id": "Eplus-warehouse-mixed-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 23020.74222101593,
+        "comfort_violation_rate": 0.9190091606974686,
+        "mean_degC_excess": 5.343044599677489
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-warehouse-mixed-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 20996.31532246399,
+        "comfort_violation_rate": 0.9817356810593305,
+        "mean_degC_excess": 5.47383224490244
+      },
+      "hvac_kwh_vs_baseline_pct": 9.6
+    },
+    {
+      "env_id": "Eplus-datacenter_cw-mixed-continuous-v1",
+      "transfer_kind": "unseen building",
+      "policy": {
+        "env_id": "Eplus-datacenter_cw-mixed-continuous-v1",
+        "steps": 52561,
+        "hvac_kwh_per_year": 211064.28907794188,
+        "comfort_violation_rate": 0.007724358364566884,
+        "mean_degC_excess": 0.008323940724824489
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-datacenter_cw-mixed-continuous-v1",
+        "steps": 52561,
+        "hvac_kwh_per_year": 186288.07131707764,
+        "comfort_violation_rate": 0.0,
+        "mean_degC_excess": 0.0
+      },
+      "hvac_kwh_vs_baseline_pct": 13.3
+    },
+    {
+      "env_id": "Eplus-shop-hot-continuous-v1",
+      "transfer_kind": "unseen building+weather",
+      "policy": {
+        "env_id": "Eplus-shop-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 35615.57597956276,
+        "comfort_violation_rate": 0.5092320424645416,
+        "mean_degC_excess": 0.5253116992173043
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-shop-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 16197.211858789444,
+        "comfort_violation_rate": 0.8416997231814161,
+        "mean_degC_excess": 2.1396890317586412
+      },
+      "hvac_kwh_vs_baseline_pct": 119.9
+    },
+    {
+      "env_id": "Eplus-shop-cool-continuous-v1",
+      "transfer_kind": "unseen building+weather",
+      "policy": {
+        "env_id": "Eplus-shop-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 51370.461893081665,
+        "comfort_violation_rate": 0.8763448531719985,
+        "mean_degC_excess": 2.642566008810168
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-shop-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 29815.925755927085,
+        "comfort_violation_rate": 0.9647555720441768,
+        "mean_degC_excess": 3.3936049858799353
+      },
+      "hvac_kwh_vs_baseline_pct": 72.3
+    },
+    {
+      "env_id": "Eplus-warehouse-hot-continuous-v1",
+      "transfer_kind": "unseen building+weather",
+      "policy": {
+        "env_id": "Eplus-warehouse-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 39900.562492034915,
+        "comfort_violation_rate": 0.9113324391427186,
+        "mean_degC_excess": 4.068784869719761
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-warehouse-hot-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 37010.922971412656,
+        "comfort_violation_rate": 0.9894694786107703,
+        "mean_degC_excess": 4.342726889342731
+      },
+      "hvac_kwh_vs_baseline_pct": 7.8
+    },
+    {
+      "env_id": "Eplus-warehouse-cool-continuous-v1",
+      "transfer_kind": "unseen building+weather",
+      "policy": {
+        "env_id": "Eplus-warehouse-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 12578.693498718261,
+        "comfort_violation_rate": 0.9753146314317513,
+        "mean_degC_excess": 5.692548239926137
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-warehouse-cool-continuous-v1",
+        "steps": 35041,
+        "hvac_kwh_per_year": 11934.266859291076,
+        "comfort_violation_rate": 0.9847036328871893,
+        "mean_degC_excess": 5.756217906030154
+      },
+      "hvac_kwh_vs_baseline_pct": 5.4
+    },
+    {
+      "env_id": "Eplus-datacenter_cw-hot-continuous-v1",
+      "transfer_kind": "unseen building+weather",
+      "policy": {
+        "env_id": "Eplus-datacenter_cw-hot-continuous-v1",
+        "steps": 52561,
+        "hvac_kwh_per_year": 250862.13881921387,
+        "comfort_violation_rate": 0.009360552500903712,
+        "mean_degC_excess": 0.006602707202389043
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-datacenter_cw-hot-continuous-v1",
+        "steps": 52561,
+        "hvac_kwh_per_year": 229711.00345544433,
+        "comfort_violation_rate": 0.0,
+        "mean_degC_excess": 0.0
+      },
+      "hvac_kwh_vs_baseline_pct": 9.2
+    },
+    {
+      "env_id": "Eplus-datacenter_cw-cool-continuous-v1",
+      "transfer_kind": "unseen building+weather",
+      "policy": {
+        "env_id": "Eplus-datacenter_cw-cool-continuous-v1",
+        "steps": 52561,
+        "hvac_kwh_per_year": 96151.93842138672,
+        "comfort_violation_rate": 0.0035006944312322825,
+        "mean_degC_excess": 0.0013375579035061456
+      },
+      "baseline_const_midpoint": {
+        "env_id": "Eplus-datacenter_cw-cool-continuous-v1",
+        "steps": 52561,
+        "hvac_kwh_per_year": 71013.01670220947,
+        "comfort_violation_rate": 0.0,
+        "mean_degC_excess": 0.0
+      },
+      "hvac_kwh_vs_baseline_pct": 35.4
+    }
+  ],
+  "summary_by_transfer_kind": {
+    "unseen building": {
+      "n_envs": 3,
+      "mean_hvac_kwh_vs_baseline_pct": 26.5,
+      "mean_comfort_violation_rate": 0.5405,
+      "baseline_violation_rate": 0.6045
+    },
+    "unseen building+weather": {
+      "n_envs": 6,
+      "mean_hvac_kwh_vs_baseline_pct": 41.7,
+      "mean_comfort_violation_rate": 0.5475,
+      "baseline_violation_rate": 0.6301
+    },
+    "unseen weather": {
+      "n_envs": 4,
+      "mean_hvac_kwh_vs_baseline_pct": 79.0,
+      "mean_comfort_violation_rate": 0.6363,
+      "baseline_violation_rate": 0.8438
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "data/buildings/2ZoneDataCenterHVAC_wEconomizer_CW.epJSON",
+    "bytes": 151119,
+    "sha256": "9bab3b5e5fadc5c0ee4f165a3830a5b2b733d048307a18aec51b54fa6f03c82d"
+  },
+  {
+    "path": "data/buildings/5ZoneAutoDXVAV.epJSON",
+    "bytes": 145219,
+    "sha256": "85c80d3e7f53ba5d3410c29d6cbc784168873e57af1191737122a092c01bb9fa"
+  },
+  {
+    "path": "data/buildings/ASHRAE901_OfficeMedium_STD2019_Denver.epJSON",
+    "bytes": 595823,
+    "sha256": "2f6747640ac774e8e82b0fb982255522b7bd3cd16b29e1e9bdf6e6d87b3dcf97"
+  },
+  {
+    "path": "data/buildings/ASHRAE901_Warehouse_STD2019_Denver.epJSON",
+    "bytes": 273447,
+    "sha256": "dbf96e25585118c8a3c93a1f3d5612759b08de5397f329096a9d2791f6d1581f"
+  },
+  {
+    "path": "data/buildings/ShopWithPVandBattery.epJSON",
+    "bytes": 245159,
+    "sha256": "4cf0c5fa4f3117475b43ccb5de43fa2755b647b87b6fb1a7624c29b1a1b61899"
+  },
+  {
+    "path": "data/weather/USA_AZ_Davis-Monthan.AFB.722745_TMY3.epw",
+    "bytes": 1637298,
+    "sha256": "157b17debef93ca3e165d428ba8da60aa6f200ca5c5e671b40461d6fb844636d"
+  },
+  {
+    "path": "data/weather/USA_NY_New.York-J.F.Kennedy.Intl.AP.744860_TMY3.epw",
+    "bytes": 1613784,
+    "sha256": "02c84581d781ec76f56072932cdc0fa07f916c49e475331360135bee7a138dd2"
+  },
+  {
+    "path": "data/weather/USA_WA_Port.Angeles-William.R.Fairchild.Intl.AP.727885_TMY3.epw",
+    "bytes": 1625209,
+    "sha256": "0cbb174a411611572897aae8f6025fbe403fdf74ea5418c8801930851905484b"
+  }
+]
